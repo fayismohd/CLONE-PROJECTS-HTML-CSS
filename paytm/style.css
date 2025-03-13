@@ -1,0 +1,95 @@
+* {
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 500px 1fr 200px;
+    align-items: center;
+    
+    
+}
+.image img {
+    margin: 25px;
+    position: relative;
+    left: 130px;
+}
+.about ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+}
+.about ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+}
+.login {
+    display: grid;
+    grid-template-columns: 8fr 5fr;
+    gap: 20px;
+    justify-content: end;
+}
+.login button {
+    border: none;
+    background-color: rgb(59, 107, 211);
+    border-radius: 23px;
+    width: 100px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.sec {
+    background-color: rgb(204, 176, 176);
+    display: grid;
+    height: 5vh;
+    place-items: center;
+    box-shadow: inset 10px 10px 10px rgb(166, 151, 151);
+}
+.sec a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 600px;
+    text-align: left;
+    padding: 50px 20px;
+    position: relative;
+    top: 100px;
+    margin-left: 90px;
+    
+}
+.main img {
+    margin-bottom: 20px;
+}
+.main h1 {
+    margin-bottom: 10px;
+}
+.main p {
+    margin-bottom: 20px;
+    
+}
+.main button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+.main button i {
+    color: azure;
+}
+.main-logo {
+    text-align: right;
+    position: relative;
+    bottom: 400px;
+}
+
